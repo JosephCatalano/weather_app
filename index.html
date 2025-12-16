@@ -7,16 +7,27 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Weather App</h1>
-    <input type="text" id="inputBox" />
-    <button id="search">Search</button>
+    <div id="titleBlock">
+      <h1>WeatherFetch</h1>
+      <h2 id="projectDesc">API Portfolio Project</h2>
+    </div>
+    <div id="inputBlock">
+      <input
+        type="text"
+        id="inputBox"
+        placeholder="Enter city name, postal code, or coords..."
+      />
+      <button id="locateButton">L</button>
+      <button id="searchButton">S</button>
+    </div>
     <div id="weather">
-      <h2 id="city">City Name</h2>
       <img id="icon" />
+      <h2 id="city">City Name</h2>
       <p id="temp">Temperature</p>
-      <p id="desc">Weather description</p>
-      <p id="humidity">Humidity</p>
+    </div>
+    <div id="details">
       <p id="wind">Wind speed</p>
+      <p id="feelsLike">Feels Like</p>
     </div>
     <script type="module" src="script.js"></script>
   </body>
