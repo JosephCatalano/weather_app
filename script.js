@@ -1,7 +1,19 @@
-const CITY = document.getElementById("city");
 const SEARCH = document.getElementById("search");
 const DISPLAY_AREA = document.getElementById("weather");
+const INPUTBOX = document.getElementById("inputBox");
 
-function getCity() {}
+function fetchWeatherData(city) {
+  null;
+}
 
-SEARCH.addEventListener();
+function handleSearch() {
+  const userInput = INPUTBOX.value;
+  console.log(userInput);
+  fetchWeatherData();
+}
+
+SEARCH.addEventListener("click", handleSearch);
+
+function buildUrl(city) {
+  null;
+}
