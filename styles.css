@@ -22,15 +22,21 @@ h2 {
 #locateButton {
   border-radius: 50%;
   width: 40px;
-  height: auto;
+  height: 40px;
   border-width: 0px;
+  background-image: url(./media/location_icon.png);
+  background-position: center;
+  background-size: contain;
 }
 
 #searchButton {
-  border-radius: 50%;
+  border-radius: 24px;
   width: 40px;
-  height: auto;
+  height: 40px;
   border-width: 0px;
+  background-image: url(./media/search_icon.png);
+  background-position: center;
+  background-size: contain;
 }
 
 #inputBox {
@@ -45,4 +51,13 @@ h2 {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+}
+
+#inputSection {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3px;
+  border-radius: 24px;
 }
