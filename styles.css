@@ -34,12 +34,13 @@ h2 {
 }
 
 #inputBox {
-  width: 350px;
-  height: 35px;
+  width: 360px;
+  height: 40px;
   border-radius: 25px;
   border-width: 0px;
   background-color: lightgray;
 }
+
 #inputBlock {
   display: flex;
   justify-content: center;
